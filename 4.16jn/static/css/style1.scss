@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html,
+body,
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 9rem;
+    .top {
+        width: 100%;
+        height: 4.5rem;
+        display: flex;
+        flex-direction: row;
+        background: rgb(173, 17, 17);
+        .left {
+            width: 15%;
+            height: 4.5rem;
+            text-align: center;
+            line-height: 4.5rem;
+            color: #fff;
+            font-size: 1.8rem;
+        }
+        .center {
+            width: 70%;
+            height: 3rem;
+            border: 1px solid #ccc;
+            border-radius: 2rem;
+            margin-top: 0.6rem;
+            background: #fff;
+            input {
+                border: 0;
+                background: 0;
+                text-align: center;
+            }
+            span {
+                display: inline-block;
+                margin-left: 5%;
+                margin-top: 0.5rem;
+                color: #333;
+            }
+        }
+        .right {
+            width: 15%;
+            height: 4.5rem;
+            text-align: center;
+            line-height: 4.5rem;
+            color: #fff;
+            font-size: 1.8rem;
+        }
+    }
+    .bottom {
+        width: 100%;
+        height: 4.5rem;
+        background: #eee;
+        ul {
+            width: 100%;
+            height: 4.5rem;
+            display: flex;
+            flex-direction: row;
+            li {
+                width: 33.3%;
+                height: 4.5rem;
+                text-align: center;
+                line-height: 4.5rem;
+            }
+        }
+    }
+}
+
+section {
+    width: 100%;
+    flex: 1;
+    overflow-y: scroll;
+    .banner {
+        width: 100%;
+        ul {
+            width: 100%;
+            li {
+                width: 100%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .nav {
+        width: 100%;
+        height: 8rem;
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.5rem;
+        border-bottom: 1px solid #ccc;
+        dl {
+            width: 25%;
+            text-align: center;
+            dt {
+                width: 4rem;
+                height: 4rem;
+                border: 1px solid red;
+                border-radius: 50%;
+                color: red;
+                text-align: center;
+                line-height: 4rem;
+                margin-left: 2rem;
+            }
+            dd {
+                margin-top: 0.5rem;
+            }
+        }
+    }
+    .tuij {
+        width: 100%;
+        margin-top: 2rem;
+        h4 {
+            width: 100%;
+            height: 2rem;
+            b {
+                height: 2rem;
+                display: inline-block;
+                border-left: 2px solid rgb(173, 17, 17);
+            }
+            span {
+                padding-left: 2rem;
+            }
+        }
+        .div {
+            width: 100%;
+            margin-top: 0.5rem;
+            display: flex;
+            flex-direction: row;
+            margin-top: 1rem;
+            dl {
+                width: 33%;
+                text-align: center;
+                dt {
+                    width: 80%;
+                    margin-left: 1rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                dd {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 4.5rem;
+    background: rgb(99, 95, 95);
+    .main {
+        width: 100%;
+        height: 4.5rem;
+        display: flex;
+        flex-direction: row;
+        a {
+            width: 25%;
+            dl {
+                width: 100%;
+                height: 4.5rem;
+                text-align: center;
+                margin-top: 0.5rem;
+                color: #fff;
+            }
+        }
+    }
+}
